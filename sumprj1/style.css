@@ -1,0 +1,66 @@
+
+body {
+    background-color: #efefe3;
+	min-height: 150vh;
+	min-width: 150vw;
+	margin: 25vmin;
+}
+
+.site_name{
+    margin: 0;
+    font-size: 20pt;
+    color: rgb(212, 195, 149);
+}
+
+
+
+.intro {
+    width: 420px; height: 110px;
+	font-size: 30pt;
+	color: blue;
+    background-color: aliceblue;
+	margin-left: 15vmin;
+}
+
+.intro:hover{
+    color: rgb(100, 30, 255);
+    transition: 1s;
+}
+
+h2{
+    -webkit-text-stroke: 1.5px rgb(0, 0, 0);
+    width: 100px; height: 5px;
+    color: rgb(238, 255, 0);
+    font-size: 20pt;
+    margin-left: 50px;
+}
+
+.sel{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: aliceblue;
+    font-size: 14pt;
+    width: 500px;
+}
+
+
+.li_1{
+    margin-left: 48.5vmin;
+    display: inline-block;
+    color: rgb(14, 131, 102);
+    background-color: rgb(221, 215, 193);
+}
+.li_2{
+    display: inline-block;
+    color: rgb(14, 131, 102);
+    background-color: rgb(221, 215, 193);
+}
+
+.li_1:hover{
+    color: black;
+    transition: 0.3s;
+}
+.li_2:hover{
+    color: black;
+    transition: 0.3s;
+}
